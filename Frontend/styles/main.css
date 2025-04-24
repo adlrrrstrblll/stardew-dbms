@@ -1,0 +1,82 @@
+body {
+    font-family: 'Courier New', Courier, monospace; /* Stardew-like font */
+    background-color: #dce7c5; /* Soft green for a farm-like feel */
+    color: #3e2723; /* Dark brown for text */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body takes full height */
+}
+
+header {
+    text-align: center;
+    background-color: #8bb174; /* Stardew-inspired green */
+    padding: 20px;
+    border-bottom: 5px solid #3e2723; /* Dark brown border */
+}
+
+header h1 {
+    font-size: 3em; /* Larger, more playful font size */
+    margin: 0;
+    color: #fdf5e6; /* Light cream text */
+    text-shadow: 2px 2px #3e2723; /* Subtle shadow for depth */
+}
+
+header p {
+    font-size: 1.5em;
+    color: #fdf5e6; /* Light cream text */
+}
+
+main {
+    flex: 1; /* Allow main content to expand */
+    padding: 20px;
+}
+
+#features h2 {
+    font-size: 2em;
+    color: #3e2723; /* Dark brown */
+    text-shadow: 1px 1px #fdf5e6; /* Subtle shadow */
+}
+
+#features ul {
+    list-style-type: disc; /* More natural list style */
+    padding-left: 40px;
+}
+
+#features li {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+#cta {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#cta button {
+    background-color: #f4a261; /* Warm orange */
+    color: #fdf5e6; /* Light cream text */
+    border: 2px solid #3e2723; /* Dark brown border */
+    padding: 12px 24px; /* Larger button */
+    font-size: 1.5em; /* Bigger font for emphasis */
+    cursor: pointer;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 3px 3px #3e2723; /* Button shadow */
+    transition: transform 0.2s, background-color 0.2s; /* Smooth hover effect */
+}
+
+#cta button:hover {
+    background-color: #e76f51; /* Darker orange */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+footer {
+    text-align: center;
+    background-color: #8bb174; /* Stardew-inspired green */
+    padding: 15px;
+    border-top: 5px solid #3e2723; /* Dark brown border */
+    color: #fdf5e6; /* Light cream text */
+    text-shadow: 1px 1px #3e2723; /* Subtle shadow */
+    margin-top: auto; /* Push footer to the bottom */
+}
