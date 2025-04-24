@@ -1,4 +1,4 @@
-# 🌾 AA Farm Database
+# 🌾 AA Farm DBMS
 
 AA Farm is a **Database Management System** for a farming simulation game inspired by *Stardew Valley*.  
 This schema manages essential gameplay data such as characters, crops, animals, stores, transactions, festivals, and item crafting.
